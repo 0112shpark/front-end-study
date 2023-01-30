@@ -21,3 +21,39 @@
   padding: 10px;
   background-color: orange;
 }
+.opac {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 100px;
+}
+.container {
+  width: 300px;
+  background-color: royalblue;
+  margin: 100px auto;
+  position: relative;
+}
+.item {
+  background-color: orange;
+  border: 4px dashed red;
+}
+.container .item:nth-child(1) {
+  width: 100px;
+  height: 100px;
+}
+.container .item:nth-child(2) {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.container .item:nth-child(3) {
+  width: 70px;
+  height: 100px;
+  text-align: center;
+  overflow: auto;
+  font-size: 5px;
+}
