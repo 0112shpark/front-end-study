@@ -1,9 +1,17 @@
-div {
-  color: red;
-  text-decoration: underline;
-}
 .box {
   width: 100px;
   height: 100px;
   background-color: red;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: 1s;
+  color: white;
+}
+.box1:focus {
+  width: 300px;
+  background-color: blue;
+  transform: translateY(100px);
 }
